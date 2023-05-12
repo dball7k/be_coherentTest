@@ -1,7 +1,3 @@
-Certainly! Here's the updated README file in Markdown format:
-
----
-
 # Spring Boot Backend API Rest Project for coherent Test Task of Francisco Valdez 
 
 This project provides a RESTful API for managing reservations.
