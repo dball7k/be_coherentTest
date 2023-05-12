@@ -59,3 +59,7 @@ To get started with the Betask Reservation API, follow these steps:
 This API was deployed in a beanstalk instance of AWS, you can test the API by sending HTTP requests to the deployed endpoint:
 
 - Public URL: [http://reservationsapp-env.eba-f8qctiqx.us-east-2.elasticbeanstalk.com:8080/api/reservation](http://reservationsapp-env.eba-f8qctiqx.us-east-2.elasticbeanstalk.com:8080/api/reservation)
+
+Additionaly you can check generated swagger documentation of this API in followin link:
+
+- Swagger URL: [http://reservationsapp-env.eba-f8qctiqx.us-east-2.elasticbeanstalk.com:8080/swagger-ui/index.html](http://reservationsapp-env.eba-f8qctiqx.us-east-2.elasticbeanstalk.com:8080/swagger-ui/index.html)
