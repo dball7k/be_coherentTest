@@ -13,8 +13,8 @@ This reservation API is built using the following technologies:
 1. **Spring Boot**: 2.7.11
    Spring Boot is a framework that simplifies the development of Java applications by providing pre-configured settings and conventions.
 
-2. **MySQL Connector/J**: 8.0.33
-   MySQL Connector/J is a JDBC driver for connecting to MySQL databases.
+2. **MySQL DB**: 8.0.33
+   This project is persisted into a MySQL DB hosted in a RDS AWS.
 
 3. **Hibernate Core**: 5.5.7.Final
    Hibernate is an object-relational mapping (ORM) framework that provides mapping between Java objects and relational databases.
@@ -57,3 +57,9 @@ To get started with the Betask Reservation API, follow these steps:
 3. Build the project using Maven.
 4. Run the application.
 5. Access the API endpoints using a REST client or browser.
+
+## Testing the API
+
+This API was deployed in a beanstalk instance of AWS, you can test the API by sending HTTP requests to the deployed endpoint:
+
+- Public URL: [http://reservationsapp-env.eba-f8qctiqx.us-east-2.elasticbeanstalk.com:8080/api/reservation](http://reservationsapp-env.eba-f8qctiqx.us-east-2.elasticbeanstalk.com:8080/api/reservation)
